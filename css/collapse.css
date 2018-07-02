@@ -1,0 +1,87 @@
+
+.root
+{
+    font-size:20px;
+}
+
+body
+{
+    background-color:;
+   font-family: "Times New Roman", Times, serif;
+   
+}
+
+
+.accordion {
+    background-color: deepskyblue;
+    color: #39393A;
+   
+    padding: 0.5%;
+    width: 70%;
+    margin:15%;
+    text-align: left;
+    border: 1;
+    
+    font-size:1rem;
+    border-radius: 10px;
+    
+}
+
+.card-header {
+    padding: 1%;
+    background-color: white;
+    overflow: hidden;
+    border: 1px solid lightgrey;
+    border-radius: 5px;
+     
+    border-left: 6px solid #4CAF50;
+}
+
+.collapse {
+    display: none;
+    text-align:justify;
+    padding: 1rem;
+
+    border-left: 6px solid red;
+}
+
+
+
+.accord-header:hover
+{
+    background-color: #BAB6B6;
+}
+
+.underline{
+	text-decoration: none;
+}
+.underline:hover
+{
+	    text-decoration: underline;
+
+}
+
+
+@media screen and (max-width:768px) {
+
+
+.accordion {
+       
+    font-size:2rem;
+    
+}
+
+}
+
+
+@media screen and (max-width:400px) {
+
+
+.accordion {
+       
+    font-size:1rem;
+    
+}
+
+}
+

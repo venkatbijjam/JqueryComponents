@@ -1,0 +1,49 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Navbar Example</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/navbar.css">
+    <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Mono" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body style="border: 1px double black;padding-left: 5px;padding-right: 5px;font-family: 'IBM Plex Mono', monospace !important;">
+        <h1 style="text-align: center;font-family: 'IBM Plex Mono', monospace;">Navbar</h1>
+    
+      
+<div class="navbar">
+  <a href="#" class="logo"> Logo </a>
+
+
+  <a href="#home" class="toggleclass">Home</a>
+  <a href="#news" class="toggleclass">Link</a>
+  <div class="dropdown toggleclass">
+    <button class="dropbtn">Dropdown 
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="#">Link 1</a>
+      <a href="#">Link 2</a>
+      <a href="#">Link 3</a>
+    </div>
+  </div> 
+   <a href="#news" class="disabled toggleclass">Disabled</a>
+
+    <div class="search-container">
+    <form action="/action_page.php">
+      <input type="text" placeholder="Search.." name="search">
+      <button type="submit"><i class="fa fa-search"></i></button>
+    </form>
+  </div>
+
+    <a href="#" class="toggle"><i class="fa fa-bars"></i></a>
+
+</div>
+
+ <script type="text/javascript" src="js/navbar.js"></script>
+
+
+</body>
+</html>
